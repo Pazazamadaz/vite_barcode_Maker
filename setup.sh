@@ -18,6 +18,10 @@ npm install
 # Install JsBarcode for barcode generation
 npm install jsbarcode
 
+# this was needed for jiti for some reason!
+npm ci || npm install
+
+
 # Optional: Add TypeScript support (comment this out if not needed)
 # npm install --save-dev typescript @types/node @vitejs/plugin-vue
 
