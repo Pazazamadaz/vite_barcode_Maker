@@ -18,6 +18,8 @@ npm install
 # Install JsBarcode for barcode generation
 npm install jsbarcode
 
+npm install jiti
+
 # this was needed for jiti for some reason!
 npm ci || npm install
 
