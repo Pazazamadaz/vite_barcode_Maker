@@ -7,7 +7,7 @@ set -e
 PROJECT_NAME="vite-barcode-maker"
 
 # Create a new Vite + Vue project
-npm create vite@latest $PROJECT_NAME -- --template vue
+npx --yes create vite@latest $PROJECT_NAME -- --template vue
 
 # Change directory into the new project
 cd $PROJECT_NAME
